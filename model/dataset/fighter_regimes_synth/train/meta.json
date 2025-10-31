@@ -1,0 +1,16 @@
+{
+  "hz":10.0,
+  "labels":[
+    "Taxi",
+    "Takeoff",
+    "Climb",
+    "Level",
+    "Cruise",
+    "Turn Left",
+    "Turn Right",
+    "Descent",
+    "Landing"
+  ],
+  "n_sorties":100,
+  "seed":42
+}

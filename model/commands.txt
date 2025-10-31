@@ -1,0 +1,14 @@
+Virtual Environment:
+
+python -m venv hal
+
+.\hal\Scripts\activate
+
+rmdir /s /q tf_venv
+
+
+numpy
+matplotlib
+
+python preprocess.py --train_dir ./dataset/fighter_regimes_synth/train --test_dir ./dataset/fighter_regimes_synth/test --out_dir ./dataset/processed
+

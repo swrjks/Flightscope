@@ -1,0 +1,9 @@
+Climb
+Cruise
+Descent
+Landing
+Level
+Takeoff
+Taxi
+Turn Left
+Turn Right
