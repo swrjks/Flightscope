@@ -4,7 +4,7 @@ FlightScope is an advanced flight data analytics and 3D visualization platform t
 
 ## 🎥 Demo
 
-[![FlightScope Demo]](https://youtu.be/w6woK7E3p9c)
+[FlightScope Demo](https://youtu.be/w6woK7E3p9c)
 
 *Click the image above to watch the demo video*
 
