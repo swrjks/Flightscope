@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# FlightScope 🛩️
 
-## Project info
+FlightScope is an advanced flight data analytics and 3D visualization platform that helps you analyze and visualize flight data with ease. Upload your CSV flight data for comprehensive analytics with interactive charts and immersive 3D flight path simulation.
 
-**URL**: https://lovable.dev/projects/da17b357-6a2a-4e90-b4e8-082311482e2b
+## 🎥 Demo
 
-## How can I edit this code?
+[![FlightScope Demo](https://img.youtube.com/vi/w6woK7E3p9c/maxresdefault.jpg)](https://youtu.be/w6woK7E3p9c)
 
-There are several ways of editing your application.
+*Click the image above to watch the demo video*
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/da17b357-6a2a-4e90-b4e8-082311482e2b) and start prompting.
+- **CSV Data Upload**: Easily upload and parse flight data from CSV files
+- **Interactive 3D Visualization**: View flight paths in an immersive 3D environment
+- **Data Analysis**: Comprehensive analytics of flight parameters
+- **Regime Analysis**: Advanced analysis of different flight regimes
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
+- **Dark/Light Theme**: Built-in theme support for comfortable viewing
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **UI Components**: shadcn/ui
+- **Styling**: Tailwind CSS
+- **3D Visualization**: Three.js
+- **Data Analysis**: Custom analytics engine
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/swrjks/Flightscope.git
+cd Flightscope
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-**Use GitHub Codespaces**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔧 Configuration
 
-## What technologies are used for this project?
+The application is configured to work out of the box with standard CSV flight data. The expected CSV format should include:
 
-This project is built with:
+- Timestamp
+- Altitude
+- Speed
+- Position coordinates
+- Other flight parameters
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📈 Usage
 
-## How can I deploy this project?
+1. Launch the application
+2. Use the CSV uploader to import your flight data
+3. View the automatic data analysis
+4. Explore the 3D flight path visualization
+5. Toggle between different analysis views
 
-Simply open [Lovable](https://lovable.dev/projects/da17b357-6a2a-4e90-b4e8-082311482e2b) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
